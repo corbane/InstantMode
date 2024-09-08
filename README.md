@@ -1,6 +1,12 @@
 
+
 This plugin switches Rhino to instant commands mode.
 To write a command in the command line, you need to press the space bar.
+
+- Only works on Windows.
+- Tested only on Rhino 7.
+- The compiled plugin can be found in publish/net48.
+
 
 ### Steps:
 
