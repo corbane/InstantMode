@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ROOT>
+  <Sequences>
+    <Item>
+      <AliasString>L</AliasString>
+      <CommandString>!_Polyline</CommandString>
+    </Item>
+    <Item>
+      <AliasString>L,L</AliasString>
+      <CommandString>!_Curve</CommandString>
+    </Item>
+    <Item>
+      <AliasString>C+L</AliasString>
+      <CommandString>!_Circle</CommandString>
+    </Item>
+    <Item>
+      <AliasString>A+L</AliasString>
+      <CommandString>!_Arc</CommandString>
+    </Item>
+    <Item>
+      <AliasString>A+C</AliasString>
+      <CommandString>!_Arc</CommandString>
+    </Item>
+    <Item>
+      <AliasString>H+L</AliasString>
+      <CommandString>!_Polygon</CommandString>
+    </Item>
+    <Item>
+      <AliasString>L+R</AliasString>
+      <CommandString>!_Rectangle</CommandString>
+    </Item>
+    <Item>
+      <AliasString>L,E</AliasString>
+      <CommandString>!_Extend </CommandString>
+    </Item>
+    <Item>
+      <AliasString>M</AliasString>
+      <CommandString>_Move</CommandString>
+    </Item>
+    <Item>
+      <AliasString>Control</AliasString>
+      <CommandString>!_Isolate</CommandString>
+    </Item>
+    <Item>
+      <AliasString>Control,Control</AliasString>
+      <CommandString>!_Unisolate</CommandString>
+    </Item>
+    <Item>
+      <AliasString>P</AliasString>
+      <CommandString>'_CPlane </CommandString>
+    </Item>
+    <Item>
+      <AliasString>P,P</AliasString>
+      <CommandString>'_CPlane _Object</CommandString>
+    </Item>
+    <Item>
+      <AliasString>P,P,P</AliasString>
+      <CommandString>'_CPlane _3Point </CommandString>
+    </Item>
+    <Item>
+      <AliasString>J</AliasString>
+      <CommandString>!_Join</CommandString>
+    </Item>
+    <Item>
+      <AliasString>J,J</AliasString>
+      <CommandString>!_Explode</CommandString>
+    </Item>
+    <Item>
+      <AliasString>NumPad7</AliasString>
+      <CommandString>'_IsoMetric _NW</CommandString>
+    </Item>
+    <Item>
+      <AliasString>NumPad9</AliasString>
+      <CommandString>'_IsoMetric _NE</CommandString>
+    </Item>
+    <Item>
+      <AliasString>NumPad1</AliasString>
+      <CommandString>'_IsoMetric _SW</CommandString>
+    </Item>
+    <Item>
+      <AliasString>NumPad3</AliasString>
+      <CommandString>'_IsoMetric _SE</CommandString>
+    </Item>
+    <Item>
+      <AliasString>NumPad8</AliasString>
+      <CommandString>'_SetView _World _Top</CommandString>
+    </Item>
+    <Item>
+      <AliasString>NumPad2</AliasString>
+      <CommandString>'_SetView _World _Bottom</CommandString>
+    </Item>
+    <Item>
+      <AliasString>NumPad4</AliasString>
+      <CommandString>'_SetView _World _Left</CommandString>
+    </Item>
+    <Item>
+      <AliasString>NumPad6</AliasString>
+      <CommandString>'_SetView _World _Right</CommandString>
+    </Item>
+    <Item>
+      <AliasString>NumPad5</AliasString>
+      <CommandString>! _-ViewportProperties _enter _Projection _Toggle _enter</CommandString>
+    </Item>
+    <Item>
+      <AliasString>Decimal</AliasString>
+      <CommandString>'_Zoom _Selected</CommandString>
+    </Item>
+    <Item>
+      <AliasString>C+D</AliasString>
+      <CommandString>! _DupEdge</CommandString>
+    </Item>
+    <Item>
+      <AliasString>D+E</AliasString>
+      <CommandString>! _DupEdge</CommandString>
+    </Item>
+    <Item>
+      <AliasString>D+F</AliasString>
+      <CommandString>! _DupBorder</CommandString>
+    </Item>
+    <Item>
+      <AliasString>D+S</AliasString>
+      <CommandString>! _DupBorder</CommandString>
+    </Item>
+    <Item>
+      <AliasString>C+E</AliasString>
+      <CommandString>! _ExtrudeCrv</CommandString>
+    </Item>
+    <Item>
+      <AliasString>E+S</AliasString>
+      <CommandString>! _ExtrudeSrf</CommandString>
+    </Item>
+    <Item>
+      <AliasString>L+O</AliasString>
+      <CommandString>! _Offset</CommandString>
+    </Item>
+    <Item>
+      <AliasString>C+O</AliasString>
+      <CommandString>! _Offset</CommandString>
+    </Item>
+    <Item>
+      <AliasString>O+S</AliasString>
+      <CommandString>! _OffsetSrf</CommandString>
+    </Item>
+    <Item>
+      <AliasString>O+S,S</AliasString>
+      <CommandString>! _VariableOffsetSrf</CommandString>
+    </Item>
+    <Item>
+      <AliasString>B+C</AliasString>
+      <CommandString>!_CurveBoolean</CommandString>
+    </Item>
+    <Item>
+      <AliasString>B+S</AliasString>
+      <CommandString>_BooleanUnion</CommandString>
+    </Item>
+    <Item>
+      <AliasString>B+S,S</AliasString>
+      <CommandString>_BooleanDifference</CommandString>
+    </Item>
+    <Item>
+      <AliasString>B,B</AliasString>
+      <CommandString>_BooleanUnion</CommandString>
+    </Item>
+    <Item>
+      <AliasString>F</AliasString>
+      <CommandString>! _PlanarSrf</CommandString>
+    </Item>
+  </Sequences>
+  <Delay>300</Delay>
+</ROOT>
